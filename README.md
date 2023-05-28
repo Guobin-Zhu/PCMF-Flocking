@@ -27,7 +27,7 @@ A predictive flocking control framework with Mean field approximation. The flock
 
 #### Simulation Analysis
 1. After each run, a folder containing some simple charts and data will be saved in <code> results_swarm </code> folder, which named by <code> year_month_day_hour_minute_second </code> format.
-2. Run <code> simulation_plot.m </code>, one can get mre embellished charts.
+2. Run <code> simulation_plot.m </code>, one can get more embellished charts.
 
 ## Troubleshooting
 Please open an [Issue](https://github.com/Guobin-Zhu/PCMF-Flocking/issues) if you have some droubles and advice.
