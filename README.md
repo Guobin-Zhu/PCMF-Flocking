@@ -15,21 +15,21 @@ A predictive flocking control framework with Mean field approximation. The flock
 ### A Step-by-step Example of Swarm-RAL
 #### Siumulation with No GUI
 1. Open MATLAB, enter the workspace of Swarm-RAL.
-2. Open <pre><code> swarm_example.m </code></pre> and click "run" or run the following command in command window:
+2. Open <code> swarm_example.m </code> and click "run" or run the following command in command window:
 <pre><code> run("./examples/swarm_example.m")</code></pre>
-3. One can see two Windows, the left side shows the motion trajectory, the right side shows the agent's state and turn algorithm parameters in <pre><code> param_swarm.m, param_sim.m </code></pre>.
+3. One can see two Windows, the left side shows the motion trajectory, the right side shows the agent's state and turn algorithm parameters in <code> param_swarm.m, param_sim.m </code>.
 
 #### Simulation with GUI
 1. Open MATLAB, enter the workspace of Swarm-RAL.
-2. Open <pre><code> GUI_main.m </code></pre> and click "run" or run the following command in command window:
+2. Open <code> GUI_main.m </code> and click "run" or run the following command in command window:
 <pre><code> run("./examples/GUI_main.m")</code></pre>
 3. One can see a graphical user interface, click "start simulation" after setting some simulation options. Then the same simulation window can be got.
 
 #### Simulation Analysis
-1. After each run, a folder containing some simple charts and data will be saved in <pre><code> results_swarm </code></pre> folder, which named by <pre><code> year_month_day_hour_minute_second </code></pre> format.
-2. Run <pre><code> simulation_plot </code></pre>, one can get mre embellished charts.
+1. After each run, a folder containing some simple charts and data will be saved in <code> results_swarm </code> folder, which named by <code> year_month_day_hour_minute_second </code> format.
+2. Run <code> simulation_plot.m </code>, one can get mre embellished charts.
 
 ## Troubleshooting
-Please open an [Issue](https://github.com/micros-uav/CoFlyers/issues) if you have some droubles and advice.
+Please open an [Issue](https://github.com/Guobin-Zhu/PCMF-Flocking/issues) if you have some droubles and advice.
 
 The document is being continuously updated.
